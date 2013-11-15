@@ -12,6 +12,7 @@
 
 $bodyBackground:  #FFF;
 $linkColor:       #11ACFA;
+$baseFontSize:    16px;
 
 
 // BASE STYLE
@@ -19,6 +20,7 @@ $linkColor:       #11ACFA;
 
 body {
   background: $bodyBackground url(/images/ps_neutral.png) repeat 0 0;
+  font-size: $baseFontSize;
 }
 
 a,
@@ -97,6 +99,10 @@ hr {
 // HELPER CLASSES
 // --------------
 
+.btn {
+  font-size: $baseFontSize;
+}
+
 .text-right {
   text-align: right;
 }
@@ -115,9 +121,12 @@ hr {
 
 .list-object {
   color: #666;
+  font-size: $baseFontSize;
+  font-weight: normal;
   max-width: 90%;
 
   li {
+    line-height: 1.5em;
     margin-bottom: 1.5em;
 
     &:last-child {
