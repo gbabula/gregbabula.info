@@ -1,0 +1,63 @@
+<header class="page-header" id="top">
+  <h1>
+    <a href="{{ individual.header.url }}">
+      {{ individual.header.title }}
+    </a>
+    <small>{{ individual.header.subtitle }}</small>
+  </h1>
+</header>
+
+<section class="content-primary content-primary-home">
+
+  <article>
+
+    <h2>About</h2>
+
+    <p class="muted"><em>{{ individual.position.title }} at <a href="{{ individual.position.url }}" 
+      target="_blank">{{ individual.position.company }}</a>.</em></p>
+
+    <p class="muted"><em>{{ individual.description }}</em></p>
+
+  </article>
+
+  <hr />
+
+  <div class="row">
+    <div class="span6">
+      <h3 id="expertise">Expertise</h2>
+
+      <ul class="list-object unstyled">
+        <li ng-repeat="expertise in individual.expertise">
+          {{ expertise }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="span2">
+      <h3 id="projects">Projects</h2>
+
+      <ul class="list-object unstyled">
+        <li ng-repeat="project in personalProjects">
+          <a href="{{ project.url }}" class="{{ project.title|lowercase }}" 
+            target="_blank">{{ project.title }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="span2">
+      <h3 id="elsewhere">Elsewhere</h2>
+
+      <ul class="list-object unstyled">
+        <li ng-repeat="social in socialMedia">
+          <a href="{{ social.url }}" class="social {{ social.title|lowercase }}" 
+            target="_blank">{{ social.title }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<footer class="page-footer" role="contentinfo">
+  <a href="#top" class="btn btn-link">Return Top</a>
+</footer>

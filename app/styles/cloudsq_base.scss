@@ -1,0 +1,153 @@
+/*!
+ *
+ * CloudSq Base
+ * CloudSq Base Style by Greg Babula
+ *
+ */
+
+
+
+// VARIABLES
+// ---------
+
+$bodyBackground:  #FFF;
+$linkColor:       #11ACFA;
+
+
+// BASE STYLE
+// ----------
+
+body {
+  background: $bodyBackground url(/images/ps_neutral.png) repeat 0 0;
+}
+
+a,
+.btn-link {
+  color: $linkColor;
+}
+
+a:hover,
+.btn-link:hover {
+  background: rgba(#D3E5FF, 0.2);
+  color: $linkColor;
+}
+
+hr {
+  margin: 4em 0;
+
+  &:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 1px;
+    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    width: 100%;
+  }
+}
+
+
+// CONTENT
+// -------
+
+.content-primary {
+  background: rgba($bodyBackground, 0.7);
+  box-shadow: 0 0.2em 0.1em rgba(0, 0, 0, 0.3);
+  padding: 4.5% 6%;
+
+  li {
+    .btn {
+      display: block;
+      padding: .5em .5em .5em 0;
+      text-align: left;
+      transition: .3s;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.page-header,
+.page-footer {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.page-header {
+  border: none;
+  margin-top: 12em;
+}
+
+.page-footer {
+  margin-bottom: 12em;
+
+  .btn {
+    display: block;
+    padding: 6em 0;
+  }
+}
+
+
+// HELPER CLASSES
+// --------------
+
+.text-right {
+  text-align: right;
+}
+
+.space-top {
+  margin-top: 4em;
+}
+
+.space-top-hlf {
+  margin-top: 2em;
+}
+
+.space-btm {
+  margin-bottom: 4em;
+}
+
+.list-object {
+  color: #666;
+  max-width: 90%;
+
+  li {
+    margin-bottom: 1.5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    } 
+  }
+}
+
+
+// MEDIA
+// -----
+
+@media (max-width: 767px) {
+  h1 {
+    small {
+      font-size: 22px;
+    }
+  }
+
+  .row {
+    div {
+      margin-bottom: 3em;
+    }
+  }
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  body {
+    background: $bodyBackground url(/images/ps_neutral_@2X.png) repeat 0 0;
+  }
+}
