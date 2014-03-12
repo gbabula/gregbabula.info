@@ -9,7 +9,7 @@ angular
       $scope.individual = {
         name: 'Greg Babula',
         position: {
-          title: 'Senior Software Developer',
+          title: 'Lead Front End Developer',
           company: 'OurGroup, INC',
           url: 'https://ourgroup.org'
         },
@@ -23,8 +23,8 @@ angular
           'UX & UI',
           'Hand-coded HTML and CSS',
           'Semantic, modular, accessible, cross-browser/device code',
-          'JavaScript (HTML5 APIs, AngularJS, NodeJS, Underscore.js, jQuery, MooTools, Raphaël.js)',
-          'Working experience with Django, CodeIgniter, Drupal, MODX, WordPress, Tumblr, and others.',
+          'JavaScript (HTML5 APIs, AngularJS, NodeJS, UnderscoreJS, jQuery, Bower, Grunt)',
+          'Working experience with Django, CodeIgniter, Drupal, MODX, WordPress, Tumblr, etc...',
           'Version Control (GIT, SVN)'
         ]
       };
@@ -65,23 +65,19 @@ angular
       $scope.personalProjects = [
         {
           title: 'CloudSquare',
-          url: 'http://cloudsq.com',
-          description: 'desc text'
+          url: 'http://cloudsq.com'
         },
         {
           title: 'G5Framework',
-          url: 'http://g5framework.com',
-          description: 'desc text'
+          url: 'http://g5framework.com'
         },
         {
           title: 'Front End Dev Blog',
-          url: 'http://frontenddevblog.com',
-          description: 'desc text'
+          url: 'http://frontenddevblog.com'
         },
         {
           title: 'SparkBubbles',
-          url: 'http://babu.la/sparkbubbles',
-          description: 'desc text'
+          url: 'http://babu.la/sparkbubbles'
         }
       ];
 
