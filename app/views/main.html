@@ -13,7 +13,7 @@
 
     <h2>About</h2>
 
-    <p class="muted"><em>{{ individual.position.title }} at <a href="{{ individual.position.url }}" 
+    <p class="muted"><em>{{ individual.position.title }} at <a href="{{ individual.position.url }}"
       target="_blank">{{ individual.position.company }}</a>.</em></p>
 
     <p class="muted"><em>{{ individual.description }}</em></p>
@@ -33,23 +33,25 @@
       </ul>
     </div>
 
-    <div class="span2">
-      <h3 id="projects">Projects</h3>
+    <!--
+      <div class="span2">
+        <h3 id="projects">Projects</h3>
 
-      <ul class="list-object unstyled">
-        <li ng-repeat="project in personalProjects">
-          <a href="{{ project.url }}" class="{{ project.title|lowercase }}" 
-            target="_blank">{{ project.title }}</a>
-        </li>
-      </ul>
-    </div>
+        <ul class="list-object unstyled">
+          <li ng-repeat="project in personalProjects">
+            <a href="{{ project.url }}" class="{{ project.title|lowercase }}"
+              target="_blank">{{ project.title }}</a>
+          </li>
+        </ul>
+      </div>
+    -->
 
     <div class="span2">
       <h3 id="elsewhere">Elsewhere</h3>
 
       <ul class="list-object unstyled">
         <li ng-repeat="social in socialMedia">
-          <a href="{{ social.url }}" class="social {{ social.title|lowercase }}" 
+          <a href="{{ social.url }}" class="social {{ social.title|lowercase }}"
             target="_blank">{{ social.title }}</a>
         </li>
       </ul>

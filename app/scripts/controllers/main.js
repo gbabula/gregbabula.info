@@ -9,14 +9,14 @@ angular
       $scope.individual = {
         name: 'Greg Babula',
         position: {
-          title: 'Lead Front End Developer',
-          company: 'OurGroup, INC',
-          url: 'https://ourgroup.org'
+          title: 'User Interface Engineer',
+          company: 'Major League Baseball',
+          url: 'http://www.mlb.com'
         },
-        description: 'I am a client side developer wth over a decade of experience.',
+        description: 'Client side developer wth over a decade of experience.',
         header: {
           title: 'GregBabula',
-          subtitle: 'Front End Developer',
+          subtitle: 'User Interface Engineer',
           url: 'http://gregbabula.info'
         },
         expertise: [
@@ -32,53 +32,53 @@ angular
       // elsewhere
       $scope.socialMedia = [
         {
-          title: 'Twitter',
+          title: '@gregbabula',
           url: 'http://twitter.com/gregbabula'
         },
-        {
-          title: 'Google+',
-          url: 'https://plus.google.com/+GregBabula'
-        },
-        {
-          title: 'Forrst',
-          url: 'http://forrst.me/G/posts'
-        },
-        {
-          title: 'Github',
-          url: 'https://github.com/gbabula'
-        },
+        // {
+        //   title: 'Google+',
+        //   url: 'https://plus.google.com/+GregBabula'
+        // },
+        // {
+        //   title: 'Forrst',
+        //   url: 'http://forrst.me/G/posts'
+        // },
+        // {
+        //   title: 'Github',
+        //   url: 'https://github.com/gbabula'
+        // },
         {
           title: 'LinkedIn',
           url: 'http://www.linkedin.com/in/gbabula'
-        },
-        {
-          title: 'OurGroup',
-          url: 'https://ourgroup.org/accounts/profile/greg-babula/'
-        },
-        {
-          title: 'Behance',
-          url: 'http://www.behance.net/gregbabula'
         }
+        // {
+        //   title: 'OurGroup',
+        //   url: 'https://ourgroup.org/accounts/profile/greg-babula/'
+        // },
+        // {
+        //   title: 'Behance',
+        //   url: 'http://www.behance.net/gregbabula'
+        // }
       ];
 
       // projects
-      $scope.personalProjects = [
-        {
-          title: 'CloudSquare',
-          url: 'http://cloudsq.com'
-        },
-        {
-          title: 'G5Framework',
-          url: 'http://g5framework.com'
-        },
-        {
-          title: 'Front End Dev Blog',
-          url: 'http://frontenddevblog.com'
-        },
-        {
-          title: 'SparkBubbles',
-          url: 'http://babu.la/sparkbubbles'
-        }
-      ];
+      // $scope.personalProjects = [
+      //   {
+      //     title: 'CloudSquare',
+      //     url: 'http://cloudsq.com'
+      //   },
+      //   {
+      //     title: 'G5Framework',
+      //     url: 'http://g5framework.com'
+      //   },
+      //   {
+      //     title: 'Front End Dev Blog',
+      //     url: 'http://frontenddevblog.com'
+      //   },
+      //   {
+      //     title: 'SparkBubbles',
+      //     url: 'http://babu.la/sparkbubbles'
+      //   }
+      // ];
 
     });
