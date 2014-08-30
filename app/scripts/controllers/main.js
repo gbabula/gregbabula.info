@@ -21,9 +21,10 @@ angular
         },
         expertise: [
           'UX & UI',
-          'Hand-coded HTML and CSS',
+          'OOP, MV*',
+          'JavaScript (KnockoutJS, AngularJS, NodeJS, jQuery, Bower, Grunt)',
           'Semantic, modular, accessible, cross-browser/device code',
-          'JavaScript (HTML5 APIs, AngularJS, NodeJS, UnderscoreJS, jQuery, Bower, Grunt)',
+          'Hand-coded HTML and CSS',
           'Working experience with Django, CodeIgniter, Drupal, MODX, WordPress, Tumblr, etc...',
           'Version Control (GIT, SVN)'
         ]
@@ -35,50 +36,30 @@ angular
           title: '@gregbabula',
           url: 'http://twitter.com/gregbabula'
         },
-        // {
-        //   title: 'Google+',
-        //   url: 'https://plus.google.com/+GregBabula'
-        // },
-        // {
-        //   title: 'Forrst',
-        //   url: 'http://forrst.me/G/posts'
-        // },
-        // {
-        //   title: 'Github',
-        //   url: 'https://github.com/gbabula'
-        // },
+        {
+          title: 'Google+',
+          url: 'https://plus.google.com/+GregBabula'
+        },
+        {
+          title: 'Github',
+          url: 'https://github.com/gbabula'
+        },
         {
           title: 'LinkedIn',
           url: 'http://www.linkedin.com/in/gbabula'
         }
-        // {
-        //   title: 'OurGroup',
-        //   url: 'https://ourgroup.org/accounts/profile/greg-babula/'
-        // },
-        // {
-        //   title: 'Behance',
-        //   url: 'http://www.behance.net/gregbabula'
-        // }
       ];
 
-      // projects
-      // $scope.personalProjects = [
-      //   {
-      //     title: 'CloudSquare',
-      //     url: 'http://cloudsq.com'
-      //   },
-      //   {
-      //     title: 'G5Framework',
-      //     url: 'http://g5framework.com'
-      //   },
-      //   {
-      //     title: 'Front End Dev Blog',
-      //     url: 'http://frontenddevblog.com'
-      //   },
-      //   {
-      //     title: 'SparkBubbles',
-      //     url: 'http://babu.la/sparkbubbles'
-      //   }
-      // ];
+      // thoughts
+      $scope.thoughts = [
+        {
+          title: 'Web Components with KnockoutJS',
+          url: 'https://medium.com/@gregbabula/web-components-with-knockout-js-567be782148'
+        },
+        {
+          title: 'Thoughts on VIM',
+          url: 'https://medium.com/@gregbabula/if-bce52ea02f68'
+        }
+      ];
 
     });

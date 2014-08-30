@@ -33,18 +33,16 @@
       </ul>
     </div>
 
-    <!--
-      <div class="span2">
-        <h3 id="projects">Projects</h3>
+    <div class="span4">
+      <h3 id="thoughts">Thoughts</h3>
 
-        <ul class="list-object unstyled">
-          <li ng-repeat="project in personalProjects">
-            <a href="{{ project.url }}" class="{{ project.title|lowercase }}"
-              target="_blank">{{ project.title }}</a>
-          </li>
-        </ul>
-      </div>
-    -->
+      <ul class="list-object unstyled">
+        <li ng-repeat="thought in thoughts">
+          <a href="{{ thought.url }}" class="{{ thought.title|lowercase }}"
+          target="_blank">{{ thought.title }}</a>
+        </li>
+      </ul>
+    </div>
 
     <div class="span2">
       <h3 id="elsewhere">Elsewhere</h3>
