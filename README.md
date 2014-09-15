@@ -1,6 +1,6 @@
 #gregbabula.info
 
-Simple personal homepage based on the CloudSquare[http://cloudsq.com] design.
+Simple personal homepage based on the [CloudSquare](http://cloudsq.com) design.
 
 
 ### Usage
