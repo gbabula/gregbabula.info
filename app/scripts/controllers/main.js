@@ -53,6 +53,10 @@ angular
       // thoughts
       $scope.thoughts = [
         {
+          title: 'The Making of - CloudSquare',
+          url: 'https://medium.com/@gregbabula/the-making-of-cloudsquare-3d976d00ed30'
+        },
+        {
           title: 'Web Components with KnockoutJS',
           url: 'https://medium.com/@gregbabula/web-components-with-knockout-js-567be782148'
         },
