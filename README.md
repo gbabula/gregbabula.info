@@ -2,6 +2,8 @@
 
 Simple personal homepage based on the [CloudSquare](http://cloudsq.com) design.
 
+:boom: __Depracated in favor of the [new cleaner version](https://github.com/gbabula/babu.la) based on [g5-component](https://github.com/MajorLeagueBaseball/g5-component)__
+
 
 ### Usage
 
